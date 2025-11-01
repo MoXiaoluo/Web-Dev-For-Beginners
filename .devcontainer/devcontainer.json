@@ -1,12 +1,13 @@
 {
+  "name": "web-dev-for-beginners",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "remoteUser": "vscode",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
-    "customizations": {
+  "customizations": {
     "vscode": {
-      "extensions": [        
-        "GitHub.copilot",
+      "extensions": [
         "ms-vscode.azure-account",
         "ms-azuretools.vscode-azurestaticwebapps"
       ]
