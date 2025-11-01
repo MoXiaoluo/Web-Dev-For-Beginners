@@ -1,7 +1,7 @@
 {
   "name": "web-dev-for-beginners",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "remoteUser": "vscode",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "remoteUser": "node",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
